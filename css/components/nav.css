@@ -1,0 +1,31 @@
+nav{
+    background-color: var(--blue-color);
+    color: var(--white-text);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+}
+li{
+    margin-right: 1rem;
+}
+.active{
+    background-color: rgba(255, 255, 255, 21%);
+    padding: 10px;
+}
+.material-icons{
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    position: relative;
+    top: 7px;
+}
